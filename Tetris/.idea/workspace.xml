@@ -4,7 +4,6 @@
     <list default="true" id="d07a01e8-eda5-4564-867b-5ae8298772c8" name="Default" comment="A1 geändert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tetris/DropBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tetris/DropBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tetris/Tetris.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tetris/Tetris.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DropBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DropBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tetris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tetris.java" afterDir="false" />
     </list>
@@ -136,6 +135,7 @@
       <workItem from="1642185544391" duration="794000" />
       <workItem from="1642189054323" duration="1642000" />
       <workItem from="1642194419838" duration="3463000" />
+      <workItem from="1642202309754" duration="554000" />
     </task>
     <task id="LOCAL-00001" summary="A1 geändert">
       <created>1538405460105</created>

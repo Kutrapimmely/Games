@@ -9,7 +9,7 @@ public class DropBlock extends Thread{
             }catch(Exception e){
                 System.out.println(e.getMessage());
             }
-            for (int i = 0; i < Tetris.playfield.length - 1; i++) {
+            for (int i = Tetris.playfield.length - 1; i >= 0; i--) {
                 for (int j = 0; j < Tetris.playfield[i].length; j++) {
                     if(Tetris.playfield[i][j] == 2){
                         Tetris.playfield[i + 1][j] = 3;

@@ -194,9 +194,12 @@ public class Tetris {
 
 
         playfield[0][0] = 1;
-        playfield[19][1] = 1;
-        playfield[19][2] = 1;
-        playfield[19][3] = 1;
+        playfield[19][4] = 1;
+        playfield[19][5] = 1;
+        playfield[19][6] = 1;
+        playfield[19][7] = 1;
+        playfield[19][8] = 1;
+        playfield[19][9] = 1;
 
         drawPlayfield();
         DropBlock dropBlock = new DropBlock();
