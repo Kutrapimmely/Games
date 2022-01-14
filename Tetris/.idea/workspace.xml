@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d07a01e8-eda5-4564-867b-5ae8298772c8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Aufgabenblatt2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aufgabenblatt2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Aufgabenblatt2/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d07a01e8-eda5-4564-867b-5ae8298772c8" name="Default" comment="A1 geändert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angabe/Aufgabenblatt3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/angabe/Aufgabenblatt3.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aufgabe1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aufgabe2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aufgabe4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aufgabe4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tetris/DropBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tetris/DropBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tetris/Tetris.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tetris/Tetris.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DropBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DropBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tetris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tetris.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -45,6 +43,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557478992060" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -89,19 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Tetris" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Tetris" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -141,6 +128,14 @@
       <workItem from="1641392767667" duration="1835000" />
       <workItem from="1641398170058" duration="4678000" />
       <workItem from="1641418209500" duration="5166000" />
+      <workItem from="1641425218425" duration="779000" />
+      <workItem from="1641465932629" duration="1027000" />
+      <workItem from="1641467251408" duration="927000" />
+      <workItem from="1641750896587" duration="91000" />
+      <workItem from="1642177140455" duration="6086000" />
+      <workItem from="1642185544391" duration="794000" />
+      <workItem from="1642189054323" duration="1642000" />
+      <workItem from="1642194419838" duration="3463000" />
     </task>
     <task id="LOCAL-00001" summary="A1 geändert">
       <created>1538405460105</created>
@@ -155,12 +150,34 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
     <MESSAGE value="A1 geändert" />
     <option name="LAST_COMMIT_MESSAGE" value="A1 geändert" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tetris.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
