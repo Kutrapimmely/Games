@@ -13,6 +13,7 @@ import java.awt.Color;
 import java.awt.event.MouseEvent;
 import java.lang.management.PlatformLoggingMXBean;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Aufgabe1 {
     // global constants
@@ -265,6 +266,8 @@ public class Aufgabe1 {
         return true;
 
     }
+
+
 
     public static void main(String[] args) {
 

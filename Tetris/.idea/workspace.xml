@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d07a01e8-eda5-4564-867b-5ae8298772c8" name="Default" comment="A1 geändert">
+      <change beforePath="$PROJECT_DIR$/../MasterMind/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MasterMind/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MasterMind/out/production/Aufgabenblatt6/Aufgabe1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MasterMind/out/production/Aufgabenblatt6/Aufgabe1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MasterMind/src/Aufgabe1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MasterMind/src/Aufgabe1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tetris/DropBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tetris/DropBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tetris/Tetris.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tetris/Tetris.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DropBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DropBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tetris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tetris.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TikTakToo/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TikTakToo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TikTakToo/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +142,8 @@
       <workItem from="1642189054323" duration="1642000" />
       <workItem from="1642194419838" duration="3463000" />
       <workItem from="1642202309754" duration="554000" />
+      <workItem from="1642976811703" duration="3730000" />
+      <workItem from="1643027029333" duration="1710000" />
     </task>
     <task id="LOCAL-00001" summary="A1 geändert">
       <created>1538405460105</created>
@@ -173,7 +181,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Tetris.java</url>
-          <line>160</line>
+          <line>187</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

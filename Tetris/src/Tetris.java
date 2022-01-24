@@ -9,11 +9,11 @@ import codedraw.textformat.TextFormat;
 import codedraw.textformat.VerticalAlign;
 
 import java.awt.Color;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.awt.event.MouseEvent;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 import java.util.stream.IntStream;
 
 public class Tetris {
@@ -22,7 +22,7 @@ public class Tetris {
     public static CodeDraw myDraw;
     public static int currentBlock;
     public static int currentRotate;
-    public static int currentBlockPosition[][];
+
 
     public static void drawPlayfield() {
         myDraw.setColor(Color.BLUE);
@@ -79,9 +79,36 @@ public class Tetris {
         return list;
     }
 
-    public static void rotateBlock(int inputAsASCII) {
+    public static void rotateBlock(CodeDraw cd, KeyEvent e) {
+       int value = e.getKeyCode();
+       System.out.println(value);
+       LinkedList<Integer> list = getPositionFromCurrentBlock();
+       switch (value){
+           case 38: //up
 
+               break;
+           case 37: // left
+
+               break;
+           case 39:// right
+
+               break;
+           case 40: //down
+                while(list.isEmpty() == false){
+                    int y = list.pop();
+                    int x = list.pop();
+                    if(x != playfield.length - 1){
+                        playfield[x][y] = 0;
+                        playfield[x + 1][y] = 2;
+                        myDraw.clear();
+                        drawPlayfield();
+                    }
+                }
+
+               break;
+       }
     }
+
 
     public static int genNextBlock() {
         return (int) (Math.random() * 7);
@@ -184,6 +211,9 @@ public class Tetris {
     }
 
 
+
+
+
     public static void main(String[] args) {
         playfield = new int[21][10];
         myDraw = new CodeDraw(400, 800);
@@ -200,11 +230,14 @@ public class Tetris {
         playfield[19][7] = 1;
         playfield[19][8] = 1;
         playfield[19][9] = 1;
+        myDraw.onKeyDown(Tetris::rotateBlock);
 
         drawPlayfield();
         DropBlock dropBlock = new DropBlock();
 
+
         dropBlock.start();
+
 
     }
 

@@ -31,7 +31,7 @@ public class DropBlock extends Thread{
             Tetris.makeBlockSolid();
             if(Tetris.checkIfRowsFull() >= 0){
                 try{
-                    Thread.sleep(1000);
+                    Thread.sleep(800);
                 }catch(Exception e){
                     System.out.println(e.getMessage());
                 }
